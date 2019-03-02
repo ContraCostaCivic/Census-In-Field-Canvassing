@@ -31,10 +31,18 @@ Once approved - individuals
 - will have access to resorces, perhaps instructional materials, that will help them perform thier task.
 - will be able to download and sign-into the mobile app
 
-#
-
-
-
-
-
-ESRI - data format
+# Mobile app
+- An individual will sign-in to the mobile app
+- They will see their block on a map which will guide them to the addresses they need to visit
+- Will cache relevent download data, such as map, assignments, addresses so they will be available when a cell signal is not available
+- For each address visited, the individual will be able to indicate if
+  - they had a successful interaction
+  - no one was home
+  - it appeared someone was home but they would not answer the door
+  - enter a brief note
+  
+ # Challenges for the group
+ - It took us some time to understand what the app needed to do. We collected details and organized them into a larger vision and then tried to narrow down to an app we could implement today.
+- The data we were provided with was in ESRI format and we were unable to find an open source tool that could use that format
+- We thought we could transform the ESRI data to GeoJson format but that took longer than expected. As a result we composed a set of sample data to work with.
+- In the data provided we were not able to find things such as block name or other descriptive information that could be used as labels. It appeared this data was there as codes and the related lookup data was not.
