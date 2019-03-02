@@ -1,0 +1,1 @@
+export const getColors = (state) => state.colors

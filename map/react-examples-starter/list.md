@@ -1,0 +1,16 @@
+- auth
+  - /home/klequis/dev/auth
+- uploading to S3 - maybe
+  - /home/klequis/dev/learn/aws-sdk-learn
+- downshift - zipcodes
+  - /home/klequis/dev/learn/aws-sdk-learn
+- lifecycle
+  - /home/klequis/dev/learn/lifecycle
+- material-ui
+- mongoDB
+- HOC
+- Redux
+- Image sizing
+- React challenges
+- Wrap redux form with material-ui
+- Async mongo / express
